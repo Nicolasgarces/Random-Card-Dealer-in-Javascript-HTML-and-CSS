@@ -1,1 +1,25 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgba(14, 126, 18);
+}
+
+.card {
+  margin-top: 20px;
+  width: 400px;
+  height: 600px;
+  border: rgb(218, 204, 204) 4px groove;
+}
+
+#paloArriba {
+  font-size: 130px;
+}
+
+#numero {
+  font-size: 130px;
+  height: 500px;
+  align-items: center;
+}
+
+#paloAbajo {
+  font-size: 130px;
+  transform: rotate(180deg);
+}
